@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather forecast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+    <body>
+        <main class="container">
+            <div class="search">
+                <input type="text" id="search-input" placeholder="Enter a City">
+                <button class="button-search">
+                    <img class="magnifier" src="./src/image/lupa.png" alt="magnifying lens ">
+                </button>
+            </div>
+            <div class="principal-information">
+                <h1 id="city"> Search to see the weather in a city </h1>
+
+                <p class="temperature" id="temperature"></p>
+
+                <img id="icon-condition" src="https://cdn.weatherapi.com/weather/64x64/day/116.png" alt="icon weather">
+                <p class="condition" id="condition"></p>
+            </div>
+            <div class="second-information">
+                <div class="humid">
+                    <span>Humid %</span>
+                    <span id="humid">--</span>
+                </div>
+                <div class="wind">
+                    <span>Wind km/h</span>
+                    <span id="wind-km">--</span>
+                </div>
+            </div>
+        </main>
+
+        <script src="./src/js/script.js"></script>
+    </body>
+
+</html>
