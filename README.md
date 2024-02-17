@@ -30,7 +30,7 @@ The project was built with what I learned in the DevQuest course, HTML5, CSS3, J
 
 <br>
 If you want to see this project, just click on the link:
-https://walclenia.github.io/form_validation/
+https://walclenia.github.io/weather-forecast/
 
 <br><br>
 
@@ -61,4 +61,4 @@ Página criada para fortalecer os conhecimentos em HTML, CSS, JavaScript e consu
 
 <br>
 Se quiser ver o projeto basta clicar no link:
-https://walclenia.github.io/form_validation/
+https://walclenia.github.io/weather-forecast/
